@@ -1,0 +1,26 @@
+title: My Jekyll Site
+description: >- 
+  A simple Jekyll site built from the ./docs directory.
+baseurl: "" # Change this if the site is served from a subpath, e.g. "/blog"
+url: "https://groupe3-surf-project-j4-s1.vercel.app/" # Replace with your site’s URL
+
+# Directory settings
+source: ./docs
+destination: ./_site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins (optional, depends on your Gemfile)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  
